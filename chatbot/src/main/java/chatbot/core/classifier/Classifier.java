@@ -55,6 +55,7 @@ public class Classifier {
 			} else {
 				// call to SESSA
 				log.info("SESSA!");
+				return new SessaHandler();
 			}
 			return null;
 		} catch (Exception e) {
